@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>HINDU, world!</title>
+  </head>
+  <body>
+    <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">BHARAT</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Insert</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  About
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#"> Lebal</a></li>
+                  <li><a class="dropdown-item" href="#">Page layout</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+<!----......................button..........................-->
+            </ul>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                login
+              </button>
+              <button type="button" class="btn btn-primary mx-3" data-bs-toggle="modal" data-bs-target="#pexampleModal">
+                Log out
+              </button>
+          </div>
+        </div>
+      </nav>
+      <!-- ................................login.............. -->
+      <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">User Name</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="User Name" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">ID</label>
+              <input type="ID" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+ <!----......................signIn...........................---->
+ <div class="modal fade" id="pexampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form class="row g-3 needs-validation" novalidate>
+                <div class="col-md-4">
+                  <label for="validationCustom01" class="form-label">First name</label>
+                  <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustom02" class="form-label">Last name</label>
+                  <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustomUsername" class="form-label">Username</label>
+                  <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                    <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                    <div class="invalid-feedback">
+                      Please choose a username.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <label for="validationCustom03" class="form-label">City</label>
+                  <input type="text" class="form-control" id="validationCustom03" required>
+                  <div class="invalid-feedback">
+                    Please provide a valid city.
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <label for="validationCustom04" class="form-label">State</label>
+                  <select class="form-select" id="validationCustom04" required>
+                    <option selected disabled value="">Choose...</option>
+                    <option>...</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Please select a valid state.
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <label for="validationCustom05" class="form-label">Zip</label>
+                  <input type="text" class="form-control" id="validationCustom05" required>
+                  <div class="invalid-feedback">
+                    Please provide a valid zip.
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label" for="invalidCheck">
+                      Agree to terms and conditions
+                    </label>
+                    <div class="invalid-feedback">
+                      You must agree before submitting.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-primary" type="submit">Submit form</button>
+                </div>
+              </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+ <!---------------------------BUTTON--------------------------------------------------->
+ <button type="button" class="btn btn-outline-primary">CLICK</button>
+<button type="button" class="btn btn-outline-secondary">HIDE</button>
+<button type="button" class="btn btn-outline-success">SHOW</button>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://source.unsplash.com/random/?house" class="d-block w-100" alt="..." style="height: 600px;">
+          </div>
+          <div class="carousel-item">
+            <img src="https://source.unsplash.com/random/?technolgy" class="d-block w-100" alt="..." style="height: 600px;">
+          </div>
+          <div class="carousel-item">
+            <img src="https://source.unsplash.com/random/?dubai" class="d-block w-100" alt="..." style="height: 600px;">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--------------------alert----------------------------------------->
+    
+      <!-------------------------------------------------card---------------------->
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="https://source.unsplash.com/random/?india" class="card-img-top" alt="..." style="height: 500px;">
+            <div class="card-body">
+              <h5 class="card-title">PRIME MINISTER</h5>
+              <p class="card-text">Narendra Damodardas Modi is an Indian politician who has served as the 14th prime minister of India since May 2014. Modi was the Chief Minister of Gujarat from 2001 to 2014 and is the Member of Parliament for Varanasi.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://source.unsplash.com/random/?army" class="card-img-top" alt="..." style="height: 500px;">
+            <div class="card-body">
+              <h5 class="card-title">HOME MINISTER</h5>
+              <p class="card-text">Amit Anil Chandra Shah is an Indian politician who is currently serving as the 31st Minister of Home Affairs since 2019 and the 1st Minister of Co-operation of India since 2021. He served as the 10th President of the Bharatiya Janata Party from 2014 to 2020</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://source.unsplash.com/random/?transport minister Nitin Jairam Gadkari" class="card-img-top" alt="..." style="height: 500px;">
+            <div class="card-body">
+              <h5 class="card-title">TRANSPORT MINISTER</h5>
+              <p class="card-text">Nitin Jairam Gadkari is an Indian politician from Maharashtra who is the current Minister for Road Transport & Highways in the Government of India. He is also the longest serving Minister for Road Transport & Highways currently running his tenure for over 9 years</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://source.unsplash.com/random/?hindu" class="card-img-top" alt="..." style="height: 500px;">
+            <div class="card-body">
+              <h5 class="card-title">CHIEF MINISTER</h5>
+              <p class="card-text">Yogi Adityanath is an Indian Hindu monk and politician from the Bharatiya Janata Party who is serving as the 21st and current Chief Minister of Uttar Pradesh since 19 March 2017. He is the longest serving Chief Minister of Uttar Pradesh, who is currently running his tenure for over 6 years, surpassing Sampurnanand.</p>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+      
+<!---------------------------shadow-------------------------------------------->
+<div class="shadow-lg p-3 mb-5 bg-danger text-white  ml-5"> The Republic of Bharat (ISO: Bhārat Gaṇarājya), is a country in South Asia.</div>
+<!---------------------------utility------------------------------------------->
+<div id="list-example" class="list-group">
+    <a class="list-group-item list-group-item-action" href="#list-item-1">About</a>
+    <a class="list-group-item list-group-item-action" href="#list-item-2">Border</a>
+    <a class="list-group-item list-group-item-action" href="#list-item-3">Land</a>
+    <a class="list-group-item list-group-item-action" href="#list-item-4">Goverment & Society</a>
+  </div>
+  <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+    <h4 id="list-item-1">item-1</h4>
+    <p>Government: Parliamentary system, Constitutional republic, Federal republic, Parliamentary republic Trending
+        Capital: New Delhi
+        CO2 emissions per capita: 1.78 metric tons (2019) World Bank
+        Electricity consumption per capita: 797.35 kWh (2014) World Bank
+        Energy use per capita: 630.90 kg of oil equivalent (2014) World Bank
+        Fertility rate: 2.05 births per woman (2020) World Bank
+        GDP growth rate: 8.7% annual change (2021) World Bank</p>
+    <h4 id="list-item-2">Border</h4>
+    <p>India, country that occupies the greater part of South Asia. Its capital is New Delhi, built in the 20th century just south of the historic hub of Old Delhi to serve as India's administrative centre. Its government is a constitutional republic that represents a highly diverse population consisting of thousands of ethnic groups and likely hundreds of languages. With roughly one-sixth of the world's total population, India is the second most populous country, after China.
+
+It is known from archaeological evidence that a highly sophisticated urbanized culture—the Indus civilization—dominated the northwestern part of the subcontinent from about 2600 to 2000 BCE. From that period on, India functioned as a virtually self-contained political and cultural arena, which gave rise to a distinctive tradition that was associated primarily with Hinduism, the roots of which can largely be traced to the Indus civilization. Other religions, notably Buddhism and Jainism, originated in India—though their presence there is now quite small—and throughout the centuries residents of the subcontinent developed a rich intellectual life in such fields as mathematics, astronomy, architecture, literature, music, and the fine arts.</p>
+    <h4 id="list-item-3">Land</h4>
+    <p>India’s frontier, which is roughly one-third coastline, abuts six countries. It is bounded to the northwest by Pakistan, to the north by Nepal, China, and Bhutan; and to the east by Myanmar (Burma). Bangladesh to the east is surrounded by India to the north, east, and west. The island country of Sri Lanka is situated some 40 miles (65 km) off the southeast coast of India across the Palk Strait and Gulf of Mannar.
+
+        Himalayas
+        Himalayas
+        The land of India—together with Bangladesh and most of Pakistan—forms a well-defined subcontinent, set off from the rest of Asia by the imposing northern mountain rampart of the Himalayas and by adjoining mountain ranges to the west and east. In area, India ranks as the seventh largest country in the world.
+        
+        Much of India's territory lies within a large peninsula, surrounded by the Arabian Sea to the west and the Bay of Bengal to the east; Cape Comorin, the southernmost point of the Indian mainland, marks the dividing line between those two bodies of water. India has two union territories composed entirely of islands: Lakshadweep, in the Arabian Sea, and the Andaman and Nicobar Islands, which lie between the Bay of Bengal and the Andaman Sea.</p>
+    <h4 id="list-item-4">Goverment</h4>
+    <p>The architects of India's constitution, though drawing on many external sources, were most heavily influenced by the British model of parliamentary democracy. In addition, a number of principles were adopted from the Constitution of the United States of America, including the separation of powers among the major branches of government, the establishment of a supreme court, and the adoption, albeit in modified form, of a federal structure (a constitutional division of power between the union [central] and state governments). The mechanical details for running the central government, however, were largely carried over from the Government of India Act of 1935, passed by the British Parliament, which served as India's constitution in the waning days of British colonial rule.
+
+        The new constitution promulgated on January 26, 1950, proclaimed India “a sovereign socialist secular democratic republic.” With 395 articles, 10 (later 12) schedules (each clarifying and expanding upon a number of articles), and more than 90 amendments, it is one of the longest and most detailed constitutions in the world. The constitution includes a detailed list of “fundamental rights,” a lengthy list of “directive principles of state policy” (goals that the state is obligated to promote, though with no specified timetable for their accomplishment [an idea taken from the Irish constitution]), and a much shorter list of “fundamental duties” of the citizen.</p>
+  </div>
+    </div>
+  </body>
+</html>
